@@ -64,7 +64,7 @@
 		}
 	}
 	/**
-	 * Load Woo Addon Plugin when all plugins loaded
+	 * Load Plugin when all plugins loaded
 	 *
 	 * @return void
 	 */
