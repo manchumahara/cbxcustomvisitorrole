@@ -52,7 +52,7 @@
 			if (! $exist_visitor_role == true) {
 				add_role('cbxcustomvisitorrole', 'Visitor', array('read' => true));
 			}
-			// If the visitor is not logged in he gets necessarily the custom "uam-visitor" role
+			// If the visitor is not logged in he gets necessarily the custom "cbxcustomvisitorrole" role
 			// ####trebly:CAREFULL:The problem is that some plugins can have checked no role for visitor : this must be checked
 			// by $user_login or wp_get_current_user() and check and role empty
 			// if role has been just set a Warning is displayed to upgrade because he has read all capability by default
